@@ -256,4 +256,8 @@ class ElasticsearchEngine extends Engine
             return [$order['column'] => $order['direction']];
         })->toArray();
     }
+    
+    public function flush($model)
+    {
+    }
 }
